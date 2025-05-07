@@ -1,0 +1,17 @@
+#tạo mt ảo
+python -m venv ten_moi_truong
+ten_moi_truong\Scripts\activate
+
+
+##Cài đặt các phụ thuộc
+pip install Flask torch torchvision nltk
+
+#Cài đặt gói nltk
+python
+import nltk
+nltk.download('punkt')
+
+python train.py
+Lệnh này sẽ dump file data.pth. Sau đó chạy lệnh sau để kiểm tra trong bảng điều khiển.
+
+python chat.py

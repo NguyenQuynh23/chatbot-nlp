@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào",
+        "Chào bạn",
+        "Có ai ở đó không?",
+        "Chào buổi sáng",
+        "Chào buổi tối"
+      ],
+      "responses": [
+        "Xin chào, rất vui được phục vụ bạn!",
+        "Chào mừng quý khách đến với nhà hàng!",
+        "Xin chào, tôi có thể giúp gì cho bạn?",
+        "Konnichiwa! Bạn cần hỗ trợ gì?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tạm biệt", "Hẹn gặp lại", "Chào tạm biệt"],
+      "responses": [
+        "Hẹn gặp lại, chúc quý khách một ngày tốt lành!",
+        "Cảm ơn quý khách, mong sớm gặp lại!",
+        "Tạm biệt, chúc quý khách ngon miệng lần sau!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Cảm ơn", "Cảm ơn bạn", "Thật hữu ích", "Cảm ơn nhiều nhé!"],
+      "responses": [
+        "Rất hân hạnh được phục vụ!",
+        "Không có gì đâu ạ!",
+        "Cảm ơn quý khách đã ủng hộ nhà hàng chúng tôi!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Nhà hàng có món gì?",
+        "Bạn có những món ăn nào?",
+        "Bạn bán những món nào?"
+      ],
+      "responses": [
+        "Chúng tôi phục vụ sushi, sashimi, ramen và nhiều món ăn Nhật Bản khác.",
+        "Nhà hàng có sushi, tempura, ramen, và các món nướng theo phong cách Nhật Bản."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Tôi có thể thanh toán bằng thẻ tín dụng không?",
+        "Nhà hàng có nhận thanh toán qua thẻ Mastercard không?",
+        "Tôi có thể trả bằng ví điện tử không?",
+        "Nhà hàng chỉ nhận tiền mặt thôi à?"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận VISA, Mastercard và thanh toán qua ví điện tử.",
+        "Nhà hàng hỗ trợ thanh toán bằng hầu hết các loại thẻ tín dụng và ví điện tử."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Giao hàng mất bao lâu?",
+        "Thời gian giao hàng là bao lâu?",
+        "Khi nào tôi nhận được đồ ăn?"
+      ],
+      "responses": [
+        "Thời gian giao hàng từ 30-60 phút tùy vào khoảng cách.",
+        "Giao hàng thường mất từ 30 phút đến 1 tiếng."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Kể tôi nghe một câu chuyện cười!",
+        "Nói gì đó hài hước đi!",
+        "Bạn biết chuyện cười nào không?"
+      ],
+      "responses": [
+        "Bạn biết không? Sushi không bao giờ nói dối, vì nó luôn tươi!",
+        "Tại sao sushi không bao giờ cô đơn? Vì nó luôn có wasabi bên cạnh!"
+      ]
+    }
+  ]
+}
